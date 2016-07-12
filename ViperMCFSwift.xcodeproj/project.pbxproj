@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013BED803F37C84DBA2E2DA2 /* Pods_ViperMCFSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91448E45BE99210F120D154F /* Pods_ViperMCFSwift.framework */; };
 		861E335A1D3524DC00AD82C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E33591D3524DC00AD82C8 /* AppDelegate.swift */; };
 		861E335C1D3524DC00AD82C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E335B1D3524DC00AD82C8 /* ViewController.swift */; };
 		861E335F1D3524DC00AD82C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861E335D1D3524DC00AD82C8 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5CF411F76BD6F592D9C1022E /* Pods-ViperMCFSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperMCFSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		861E33561D3524DC00AD82C8 /* ViperMCFSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperMCFSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		861E33591D3524DC00AD82C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		861E335B1D3524DC00AD82C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		861E33601D3524DC00AD82C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		861E33631D3524DC00AD82C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		861E33651D3524DC00AD82C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91448E45BE99210F120D154F /* Pods_ViperMCFSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperMCFSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6EEFCAA195BF036B493387C /* Pods-ViperMCFSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperMCFSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013BED803F37C84DBA2E2DA2 /* Pods_ViperMCFSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341768F88A5A6BB5FB65BC72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CF411F76BD6F592D9C1022E /* Pods-ViperMCFSwift.debug.xcconfig */,
+				D6EEFCAA195BF036B493387C /* Pods-ViperMCFSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		861E334D1D3524DC00AD82C8 = {
 			isa = PBXGroup;
 			children = (
 				861E33581D3524DC00AD82C8 /* ViperMCFSwift */,
 				861E33571D3524DC00AD82C8 /* Products */,
+				341768F88A5A6BB5FB65BC72 /* Pods */,
+				DB3EB7F768217A7BCA76BCB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = ViperMCFSwift;
 			sourceTree = "<group>";
 		};
+		DB3EB7F768217A7BCA76BCB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91448E45BE99210F120D154F /* Pods_ViperMCFSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 861E33681D3524DC00AD82C8 /* Build configuration list for PBXNativeTarget "ViperMCFSwift" */;
 			buildPhases = (
+				81BDFA9C2F27914F21D9FAA9 /* 📦 Check Pods Manifest.lock */,
 				861E33521D3524DC00AD82C8 /* Sources */,
 				861E33531D3524DC00AD82C8 /* Frameworks */,
 				861E33541D3524DC00AD82C8 /* Resources */,
+				E1CDE0C0EACE1A774882182F /* 📦 Embed Pods Frameworks */,
+				D7391AE6F0E5F002BB3388CA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81BDFA9C2F27914F21D9FAA9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7391AE6F0E5F002BB3388CA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1CDE0C0EACE1A774882182F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		861E33521D3524DC00AD82C8 /* Sources */ = {
@@ -247,6 +322,7 @@
 		};
 		861E33691D3524DC00AD82C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF411F76BD6F592D9C1022E /* Pods-ViperMCFSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ViperMCFSwift/Info.plist;
@@ -258,6 +334,7 @@
 		};
 		861E336A1D3524DC00AD82C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6EEFCAA195BF036B493387C /* Pods-ViperMCFSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ViperMCFSwift/Info.plist;
@@ -286,6 +363,7 @@
 				861E336A1D3524DC00AD82C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
