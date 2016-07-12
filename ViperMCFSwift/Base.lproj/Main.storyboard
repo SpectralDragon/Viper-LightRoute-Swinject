@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uIg-sK-0gk">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Fisrtmodule View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="firstModuleController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="FisrtModuleViewController" customModule="ViperMCFSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,102 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Some Example Text" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CME-G8-Mxm">
+                                <rect key="frame" x="20" y="112" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7BX-kf-aYQ">
+                                <rect key="frame" x="166" y="156" width="269" height="30"/>
+                                <state key="normal" title="Send Data to Second Module via segue"/>
+                                <connections>
+                                    <action selector="didClickSendDataButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tip-2P-Bqw"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7BX-kf-aYQ" firstAttribute="centerX" secondItem="CME-G8-Mxm" secondAttribute="centerX" id="LzT-iU-EFz"/>
+                            <constraint firstItem="CME-G8-Mxm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TEV-vY-A5b"/>
+                            <constraint firstAttribute="trailing" secondItem="CME-G8-Mxm" secondAttribute="trailing" constant="20" id="alc-qC-wfw"/>
+                            <constraint firstItem="CME-G8-Mxm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="hKs-BK-bXn"/>
+                            <constraint firstItem="CME-G8-Mxm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="48" id="hlz-pD-fet"/>
+                            <constraint firstItem="7BX-kf-aYQ" firstAttribute="top" secondItem="CME-G8-Mxm" secondAttribute="bottom" constant="14" id="iOm-kL-Cfl"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Coh-y1-A4m"/>
+                    <connections>
+                        <outlet property="textField" destination="CME-G8-Mxm" id="hsr-QS-Swt"/>
+                        <segue destination="Luh-0b-HN1" kind="show" identifier="detailSecondSegue" id="hhT-cf-YYm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="Stf-a4-cxF" customClass="FisrtModuleModuleInitializer" customModule="ViperMCFSwift" customModuleProvider="target">
+                    <connections>
+                        <outlet property="fisrtmoduleViewController" destination="BYZ-38-t0r" id="P83-lg-Nyi"/>
+                    </connections>
+                </customObject>
             </objects>
+            <point key="canvasLocation" x="1036" y="321"/>
+        </scene>
+        <!--Secondmodule View Controller-->
+        <scene sceneID="I9m-pE-jj2">
+            <objects>
+                <viewController storyboardIdentifier="secondModuleController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Luh-0b-HN1" customClass="SecondModuleViewController" customModule="ViperMCFSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tKi-uU-Hcc"/>
+                        <viewControllerLayoutGuide type="bottom" id="ctG-6c-cWV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tfT-UL-GSp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8YN-Iq-Cbs">
+                                <rect key="frame" x="20" y="289" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8YN-Iq-Cbs" firstAttribute="centerX" secondItem="tfT-UL-GSp" secondAttribute="centerX" id="LWU-yg-5s0"/>
+                            <constraint firstItem="8YN-Iq-Cbs" firstAttribute="centerY" secondItem="tfT-UL-GSp" secondAttribute="centerY" id="W83-2x-j9o"/>
+                            <constraint firstItem="8YN-Iq-Cbs" firstAttribute="leading" secondItem="tfT-UL-GSp" secondAttribute="leading" constant="20" id="fza-m1-F0Y"/>
+                            <constraint firstAttribute="trailing" secondItem="8YN-Iq-Cbs" secondAttribute="trailing" constant="20" id="o8i-Td-0rU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="exampleStringLabel" destination="8YN-Iq-Cbs" id="8mV-WZ-7Mj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a84-TM-Amr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="0fH-Fp-6AU" customClass="SecondModuleModuleInitializer" customModule="ViperMCFSwift" customModuleProvider="target">
+                    <connections>
+                        <outlet property="secondmoduleViewController" destination="Luh-0b-HN1" id="UCv-2B-zsC"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="1729" y="321"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eEg-nX-ghA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uIg-sK-0gk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Mws-Wm-wAk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="zSG-Md-NEp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FML-3O-1MS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="317" y="321"/>
         </scene>
     </scenes>
 </document>
