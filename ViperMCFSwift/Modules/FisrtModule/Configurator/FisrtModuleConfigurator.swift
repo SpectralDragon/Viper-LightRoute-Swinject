@@ -21,6 +21,9 @@ class FisrtModuleModuleConfigurator {
 
         let router = FisrtModuleRouter()
         router.transitionHandler = viewController
+        
+        router.transitionModuleFactory = ThirdModuleFactory(storyboard: UIStoryboard(name: "Main", bundle: NSBundle.mainBundle()),
+                                                             andRestorationId: "thirdModuleController")
 
         let presenter = FisrtModulePresenter()
         presenter.view = viewController

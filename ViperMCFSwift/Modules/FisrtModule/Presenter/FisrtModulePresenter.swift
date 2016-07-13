@@ -23,4 +23,14 @@ class FisrtModulePresenter: FisrtModuleModuleInput, FisrtModuleViewOutput, Fisrt
             sself?.router.openSecondModuleWithExampleString(data)
         }
     }
+    
+    
+    func instantiateSecondModule() {
+        weak var wself = self
+        view.getDataWithResultBlock { (data) in
+            let sself = wself
+            sself?.router.instantiateSecondModuleWithExampleString(data)
+        }
+    }
+    
 }

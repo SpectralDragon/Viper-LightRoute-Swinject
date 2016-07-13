@@ -4,6 +4,5 @@
  use_frameworks!
 
 target 'ViperMCFSwift' do
- pod 'ViperMcFlurry'
+ pod 'ViperMcFlurry', :git => 'git@github.com:rambler-ios/ViperMcFlurry.git', :branch => 'master'
 end
-

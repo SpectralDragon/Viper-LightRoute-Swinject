@@ -6,6 +6,5 @@
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
-class SecondModuleRouter: SecondModuleRouterInput {
 
-}
+class SecondModuleRouter: SecondModuleRouterInput { }

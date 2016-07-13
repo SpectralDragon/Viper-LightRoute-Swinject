@@ -11,4 +11,5 @@ import ViperMcFlurry
 
 protocol FisrtModuleRouterInput: RamblerViperModuleInput {
     func openSecondModuleWithExampleString(data: String)
+    func instantiateSecondModuleWithExampleString(data: String)
 }

@@ -1,1426 +1,679 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>013BED803F37C84DBA2E2DA2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91448E45BE99210F120D154F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>01E214C05D787639A7B2ECF8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SecondModuleModuleInput.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>02AC0DB2B58E5D385CE5E92D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7BF95806452565FD8A7FAD0B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>161EFEFE5AF92F80BF2C9067</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7A81BC986C53D3D0FCD7EA63</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1626DDEFD2BBDA8A62A8F64B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SecondModulePresenter.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1945F4942F460C42F04393E1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SecondModuleViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1D755DAC450803302933F11A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6D68FDC662A34434E98B49B3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1F361F42FA060D89A2C3C2E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4492BFD45D33EC6C2FA1210F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2262A5E638A1C80D4790EAC7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2ECB08E590238149C7BBF41D</string>
-				<string>4FF9680D7D8AA933F06065B0</string>
-				<string>96D0810C418A97DA29D02698</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Interactor</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2ECB08E590238149C7BBF41D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FisrtModuleInteractorInput.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>31602E47F5B86BB7498AE2CD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FisrtModuleViewInput.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>319AFEC0381D18C22AC72042</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D39CE58C587494694C94C9BA</string>
-				<string>5EA12BD6CA462E0857F78825</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Presenter</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>341768F88A5A6BB5FB65BC72</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5CF411F76BD6F592D9C1022E</string>
-				<string>D6EEFCAA195BF036B493387C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>390ECD710D0714787E78BAF1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C9A9CD6DC1E94A36572B9535</string>
-				<string>319AFEC0381D18C22AC72042</string>
-				<string>2262A5E638A1C80D4790EAC7</string>
-				<string>677E1B77265D702CB4158E3E</string>
-				<string>BD4B4C171095CF8EDAC44746</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>FisrtModule</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4186143A9E52B6273107C4B6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6D68FDC662A34434E98B49B3</string>
-				<string>D58A887D4BA95BC6409DF680</string>
-				<string>1945F4942F460C42F04393E1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>View</string>
-			<key>path</key>
-			<string>View</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4492BFD45D33EC6C2FA1210F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FisrtModuleInitializer.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>48151DFF3EBE24545A215032</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SecondModuleInteractorOutput.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>481EB67CB5B0ECBEE5D9E5E8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D58A887D4BA95BC6409DF680</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>484C08A486BB051454A6E587</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B5F4D7A1FF9BDFD3F1EF0F67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4BFA267440B04656815411F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D39CE58C587494694C94C9BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4BFE667254F504B36AA7BF55</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CE6FC9269040919A2C1465DE</string>
-				<string>48151DFF3EBE24545A215032</string>
-				<string>7A81BC986C53D3D0FCD7EA63</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Interactor</string>
-			<key>path</key>
-			<string>Interactor</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4FF9680D7D8AA933F06065B0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FisrtModuleInteractorOutput.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5CF411F76BD6F592D9C1022E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ViperMCFSwift.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5EA12BD6CA462E0857F78825</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FisrtModulePresenter.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6104F07A27CD7A4EA5D9548A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SecondModuleInitializer.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>63B9AD650FB88B8D276BF680</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>390ECD710D0714787E78BAF1</string>
-				<string>7E0F0DDF9E05A1286EC10D88</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Modules</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>677E1B77265D702CB4158E3E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E6721517DE83E19CBCA64808</string>
-				<string>6DF7CF5051565335EE408993</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Router</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A3C44042D585887D46EA72E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>01E214C05D787639A7B2ECF8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6D68FDC662A34434E98B49B3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SecondModuleViewInput.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6DF7CF5051565335EE408993</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FisrtModuleRouter.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6FA3647CF0EEF208AAA5CB60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CE6FC9269040919A2C1465DE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>70616B42F044E86FB8BEE284</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9E26C91EBF5B83EDEC2D126B</string>
-				<string>A644D1704027BD9DD9D11401</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Router</string>
-			<key>path</key>
-			<string>Router</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A81BC986C53D3D0FCD7EA63</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SecondModuleInteractor.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7BF95806452565FD8A7FAD0B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FisrtModuleViewOutput.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D76CAF67E203D086FBE7465</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E6721517DE83E19CBCA64808</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7E0F0DDF9E05A1286EC10D88</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4186143A9E52B6273107C4B6</string>
-				<string>87250C0F147600F016DC89F7</string>
-				<string>4BFE667254F504B36AA7BF55</string>
-				<string>70616B42F044E86FB8BEE284</string>
-				<string>A2187F9000C23E572C797999</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SecondModule</string>
-			<key>path</key>
-			<string>SecondModule</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>81BDFA9C2F27914F21D9FAA9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>861E334D1D3524DC00AD82C8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>861E33581D3524DC00AD82C8</string>
-				<string>861E33571D3524DC00AD82C8</string>
-				<string>341768F88A5A6BB5FB65BC72</string>
-				<string>DB3EB7F768217A7BCA76BCB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>861E334E1D3524DC00AD82C8</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>WebAnt</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>861E33551D3524DC00AD82C8</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>861E33511D3524DC00AD82C8</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>861E334D1D3524DC00AD82C8</string>
-			<key>productRefGroup</key>
-			<string>861E33571D3524DC00AD82C8</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>861E33551D3524DC00AD82C8</string>
-			</array>
-		</dict>
-		<key>861E33511D3524DC00AD82C8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>861E33661D3524DC00AD82C8</string>
-				<string>861E33671D3524DC00AD82C8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>861E33521D3524DC00AD82C8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>861E335A1D3524DC00AD82C8</string>
-				<string>F0E24D450F86A67E0167232D</string>
-				<string>02AC0DB2B58E5D385CE5E92D</string>
-				<string>B6E23A543623C32030D9F4DB</string>
-				<string>4BFA267440B04656815411F7</string>
-				<string>AFE341EB05958730B091BBE8</string>
-				<string>8B750F0699F2A953F4EACF46</string>
-				<string>CE9746BE3F53E50752D4763F</string>
-				<string>92759F1B267BDCA8A0050681</string>
-				<string>7D76CAF67E203D086FBE7465</string>
-				<string>D53925F2B67458A3B957F8C2</string>
-				<string>484C08A486BB051454A6E587</string>
-				<string>1F361F42FA060D89A2C3C2E9</string>
-				<string>1D755DAC450803302933F11A</string>
-				<string>481EB67CB5B0ECBEE5D9E5E8</string>
-				<string>EA51B59D9DB7A7DB240CF08A</string>
-				<string>6A3C44042D585887D46EA72E</string>
-				<string>F0A9D4C68383886469AA0BA1</string>
-				<string>6FA3647CF0EEF208AAA5CB60</string>
-				<string>921F2E89C10C8AA52B45009F</string>
-				<string>161EFEFE5AF92F80BF2C9067</string>
-				<string>E27B8368836C242703E7CA88</string>
-				<string>DCE5E0CD6CCA0CD9A4A52F80</string>
-				<string>D4432D9577518BD94942FA3E</string>
-				<string>F8176259DB9BB16075EA675C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>861E33531D3524DC00AD82C8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>013BED803F37C84DBA2E2DA2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>861E33541D3524DC00AD82C8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>861E33641D3524DC00AD82C8</string>
-				<string>861E33611D3524DC00AD82C8</string>
-				<string>861E335F1D3524DC00AD82C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>861E33551D3524DC00AD82C8</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>861E33681D3524DC00AD82C8</string>
-			<key>buildPhases</key>
-			<array>
-				<string>81BDFA9C2F27914F21D9FAA9</string>
-				<string>861E33521D3524DC00AD82C8</string>
-				<string>861E33531D3524DC00AD82C8</string>
-				<string>861E33541D3524DC00AD82C8</string>
-				<string>E1CDE0C0EACE1A774882182F</string>
-				<string>D7391AE6F0E5F002BB3388CA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ViperMCFSwift</string>
-			<key>productName</key>
-			<string>ViperMCFSwift</string>
-			<key>productReference</key>
-			<string>861E33561D3524DC00AD82C8</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>861E33561D3524DC00AD82C8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ViperMCFSwift.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>861E33571D3524DC00AD82C8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>861E33561D3524DC00AD82C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>861E33581D3524DC00AD82C8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>861E336C1D35385C00AD82C8</string>
-				<string>861E336B1D35384A00AD82C8</string>
-				<string>63B9AD650FB88B8D276BF680</string>
-				<string>861E33591D3524DC00AD82C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ViperMCFSwift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>861E33591D3524DC00AD82C8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>861E335A1D3524DC00AD82C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>861E33591D3524DC00AD82C8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>861E335D1D3524DC00AD82C8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>861E335E1D3524DC00AD82C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>861E335E1D3524DC00AD82C8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>861E335F1D3524DC00AD82C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>861E335D1D3524DC00AD82C8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>861E33601D3524DC00AD82C8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>861E33611D3524DC00AD82C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>861E33601D3524DC00AD82C8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>861E33621D3524DC00AD82C8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>861E33631D3524DC00AD82C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>861E33631D3524DC00AD82C8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>861E33641D3524DC00AD82C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>861E33621D3524DC00AD82C8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>861E33651D3524DC00AD82C8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>861E33661D3524DC00AD82C8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>861E33671D3524DC00AD82C8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>861E33681D3524DC00AD82C8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>861E33691D3524DC00AD82C8</string>
-				<string>861E336A1D3524DC00AD82C8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>861E33691D3524DC00AD82C8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5CF411F76BD6F592D9C1022E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ViperMCFSwift/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>ru.webant.ViperMCFSwift</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>861E336A1D3524DC00AD82C8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D6EEFCAA195BF036B493387C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ViperMCFSwift/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>ru.webant.ViperMCFSwift</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>861E336B1D35384A00AD82C8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>861E33601D3524DC00AD82C8</string>
-				<string>861E33651D3524DC00AD82C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>861E336C1D35385C00AD82C8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>861E335D1D3524DC00AD82C8</string>
-				<string>861E33621D3524DC00AD82C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Common</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>87250C0F147600F016DC89F7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>01E214C05D787639A7B2ECF8</string>
-				<string>1626DDEFD2BBDA8A62A8F64B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Presenter</string>
-			<key>path</key>
-			<string>Presenter</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B750F0699F2A953F4EACF46</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2ECB08E590238149C7BBF41D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8D0E3BFF9D89C1FBD8FCCF31</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FisrtModuleViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>91448E45BE99210F120D154F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_ViperMCFSwift.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>921F2E89C10C8AA52B45009F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>48151DFF3EBE24545A215032</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>92759F1B267BDCA8A0050681</key>
-		<dict>
-			<key>fileRef</key>
-			<string>96D0810C418A97DA29D02698</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>96D0810C418A97DA29D02698</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FisrtModuleInteractor.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E26C91EBF5B83EDEC2D126B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SecondModuleRouterInput.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A2187F9000C23E572C797999</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D260323C81B0A0F3ED4C9F36</string>
-				<string>6104F07A27CD7A4EA5D9548A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Configurator</string>
-			<key>path</key>
-			<string>Configurator</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A644D1704027BD9DD9D11401</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SecondModuleRouter.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFE341EB05958730B091BBE8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5EA12BD6CA462E0857F78825</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B5F4D7A1FF9BDFD3F1EF0F67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FisrtModuleConfigurator.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B6E23A543623C32030D9F4DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D0E3BFF9D89C1FBD8FCCF31</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BD4B4C171095CF8EDAC44746</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B5F4D7A1FF9BDFD3F1EF0F67</string>
-				<string>4492BFD45D33EC6C2FA1210F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Configurator</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C9A9CD6DC1E94A36572B9535</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>31602E47F5B86BB7498AE2CD</string>
-				<string>7BF95806452565FD8A7FAD0B</string>
-				<string>8D0E3BFF9D89C1FBD8FCCF31</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>View</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE6FC9269040919A2C1465DE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SecondModuleInteractorInput.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE9746BE3F53E50752D4763F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4FF9680D7D8AA933F06065B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D260323C81B0A0F3ED4C9F36</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SecondModuleConfigurator.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D39CE58C587494694C94C9BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FisrtModuleModuleInput.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D4432D9577518BD94942FA3E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D260323C81B0A0F3ED4C9F36</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D53925F2B67458A3B957F8C2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6DF7CF5051565335EE408993</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D58A887D4BA95BC6409DF680</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SecondModuleViewOutput.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6EEFCAA195BF036B493387C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ViperMCFSwift.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D7391AE6F0E5F002BB3388CA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>DB3EB7F768217A7BCA76BCB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>91448E45BE99210F120D154F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DCE5E0CD6CCA0CD9A4A52F80</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A644D1704027BD9DD9D11401</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E1CDE0C0EACE1A774882182F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>&#128230; Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>E27B8368836C242703E7CA88</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9E26C91EBF5B83EDEC2D126B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E6721517DE83E19CBCA64808</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FisrtModuleRouterInput.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA51B59D9DB7A7DB240CF08A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1945F4942F460C42F04393E1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F0A9D4C68383886469AA0BA1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1626DDEFD2BBDA8A62A8F64B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F0E24D450F86A67E0167232D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>31602E47F5B86BB7498AE2CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F8176259DB9BB16075EA675C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6104F07A27CD7A4EA5D9548A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>861E334E1D3524DC00AD82C8</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013BED803F37C84DBA2E2DA2 /* Pods_ViperMCFSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91448E45BE99210F120D154F /* Pods_ViperMCFSwift.framework */; };
+		02AC0DB2B58E5D385CE5E92D /* FisrtModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF95806452565FD8A7FAD0B /* FisrtModuleViewOutput.swift */; };
+		161EFEFE5AF92F80BF2C9067 /* SecondModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A81BC986C53D3D0FCD7EA63 /* SecondModuleInteractor.swift */; };
+		1D755DAC450803302933F11A /* SecondModuleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D68FDC662A34434E98B49B3 /* SecondModuleViewInput.swift */; };
+		1F361F42FA060D89A2C3C2E9 /* FisrtModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492BFD45D33EC6C2FA1210F /* FisrtModuleInitializer.swift */; };
+		2AD965D7A7AF5AA15D65F822 /* ThirdModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553C07D330ED2B2B94EB706E /* ThirdModuleInitializer.swift */; };
+		38DAF27220F0C6D713FB5F97 /* ThirdModuleModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4821B2C4AEFB14676875FC /* ThirdModuleModuleInput.swift */; };
+		481EB67CB5B0ECBEE5D9E5E8 /* SecondModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58A887D4BA95BC6409DF680 /* SecondModuleViewOutput.swift */; };
+		484C08A486BB051454A6E587 /* FisrtModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F4D7A1FF9BDFD3F1EF0F67 /* FisrtModuleConfigurator.swift */; };
+		4BFA267440B04656815411F7 /* FisrtModuleModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CE58C587494694C94C9BA /* FisrtModuleModuleInput.swift */; };
+		6A3C44042D585887D46EA72E /* SecondModuleModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E214C05D787639A7B2ECF8 /* SecondModuleModuleInput.swift */; };
+		6FA3647CF0EEF208AAA5CB60 /* SecondModuleInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FC9269040919A2C1465DE /* SecondModuleInteractorInput.swift */; };
+		7359122C57CCD21E4F395731 /* ThirdModuleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEA947116ACFE4E4A35A30E /* ThirdModuleRouterInput.swift */; };
+		7974A016C7AF527E5EA3E5F3 /* ThirdModuleInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79168F6179CEB6947467C686 /* ThirdModuleInteractorOutput.swift */; };
+		7D76CAF67E203D086FBE7465 /* FisrtModuleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6721517DE83E19CBCA64808 /* FisrtModuleRouterInput.swift */; };
+		8186544F273EE4E9F745A298 /* ThirdModuleInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884754E2DA2FC3608B5D86BA /* ThirdModuleInteractorInput.swift */; };
+		861E335A1D3524DC00AD82C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E33591D3524DC00AD82C8 /* AppDelegate.swift */; };
+		861E335F1D3524DC00AD82C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861E335D1D3524DC00AD82C8 /* Main.storyboard */; };
+		861E33611D3524DC00AD82C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861E33601D3524DC00AD82C8 /* Assets.xcassets */; };
+		861E33641D3524DC00AD82C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861E33621D3524DC00AD82C8 /* LaunchScreen.storyboard */; };
+		8B750F0699F2A953F4EACF46 /* FisrtModuleInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB08E590238149C7BBF41D /* FisrtModuleInteractorInput.swift */; };
+		921F2E89C10C8AA52B45009F /* SecondModuleInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48151DFF3EBE24545A215032 /* SecondModuleInteractorOutput.swift */; };
+		92759F1B267BDCA8A0050681 /* FisrtModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0810C418A97DA29D02698 /* FisrtModuleInteractor.swift */; };
+		AE8F964B127E42E704B3593C /* ThirdModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CCD0D6BB9259C93258FF5 /* ThirdModuleInteractor.swift */; };
+		AFE341EB05958730B091BBE8 /* FisrtModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA12BD6CA462E0857F78825 /* FisrtModulePresenter.swift */; };
+		B55535655555CC076578A822 /* ThirdModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C7599763FD4EDDBF4C4EE9 /* ThirdModulePresenter.swift */; };
+		B6E23A543623C32030D9F4DB /* FisrtModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E3BFF9D89C1FBD8FCCF31 /* FisrtModuleViewController.swift */; };
+		B8F9CEEC938AE9C954FB7251 /* ThirdModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4211CED17DA41D4467BA50D4 /* ThirdModuleConfigurator.swift */; };
+		C0A49DCB33CCF662A0ADA6EE /* ThirdModuleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70075D78C9E710A3458884BC /* ThirdModuleViewInput.swift */; };
+		CE9746BE3F53E50752D4763F /* FisrtModuleInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9680D7D8AA933F06065B0 /* FisrtModuleInteractorOutput.swift */; };
+		D4432D9577518BD94942FA3E /* SecondModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D260323C81B0A0F3ED4C9F36 /* SecondModuleConfigurator.swift */; };
+		D53925F2B67458A3B957F8C2 /* FisrtModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF7CF5051565335EE408993 /* FisrtModuleRouter.swift */; };
+		DCE5E0CD6CCA0CD9A4A52F80 /* SecondModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A644D1704027BD9DD9D11401 /* SecondModuleRouter.swift */; };
+		DD090197469380B7A8E7AE27 /* ThirdModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82155F612B21B9187562ED52 /* ThirdModuleViewOutput.swift */; };
+		DED05954D6D2F700153D866C /* ThirdModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101F9F79DCCABF5C24CA7E0 /* ThirdModuleViewController.swift */; };
+		E27B8368836C242703E7CA88 /* SecondModuleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E26C91EBF5B83EDEC2D126B /* SecondModuleRouterInput.swift */; };
+		E7E3E12DB06582F31676B6FD /* ThirdModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4C69E3507F82DD72E3A301 /* ThirdModuleRouter.swift */; };
+		EA51B59D9DB7A7DB240CF08A /* SecondModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1945F4942F460C42F04393E1 /* SecondModuleViewController.swift */; };
+		F0A9D4C68383886469AA0BA1 /* SecondModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1626DDEFD2BBDA8A62A8F64B /* SecondModulePresenter.swift */; };
+		F0E24D450F86A67E0167232D /* FisrtModuleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31602E47F5B86BB7498AE2CD /* FisrtModuleViewInput.swift */; };
+		F8176259DB9BB16075EA675C /* SecondModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6104F07A27CD7A4EA5D9548A /* SecondModuleInitializer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01E214C05D787639A7B2ECF8 /* SecondModuleModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleModuleInput.swift; sourceTree = "<group>"; };
+		121CCD0D6BB9259C93258FF5 /* ThirdModuleInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleInteractor.swift; sourceTree = "<group>"; };
+		1626DDEFD2BBDA8A62A8F64B /* SecondModulePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModulePresenter.swift; sourceTree = "<group>"; };
+		1945F4942F460C42F04393E1 /* SecondModuleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleViewController.swift; sourceTree = "<group>"; };
+		2ECB08E590238149C7BBF41D /* FisrtModuleInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleInteractorInput.swift; sourceTree = "<group>"; };
+		31602E47F5B86BB7498AE2CD /* FisrtModuleViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleViewInput.swift; sourceTree = "<group>"; };
+		3B4821B2C4AEFB14676875FC /* ThirdModuleModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleModuleInput.swift; sourceTree = "<group>"; };
+		4211CED17DA41D4467BA50D4 /* ThirdModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleConfigurator.swift; sourceTree = "<group>"; };
+		4492BFD45D33EC6C2FA1210F /* FisrtModuleInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleInitializer.swift; sourceTree = "<group>"; };
+		48151DFF3EBE24545A215032 /* SecondModuleInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleInteractorOutput.swift; sourceTree = "<group>"; };
+		4FF9680D7D8AA933F06065B0 /* FisrtModuleInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleInteractorOutput.swift; sourceTree = "<group>"; };
+		553C07D330ED2B2B94EB706E /* ThirdModuleInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleInitializer.swift; sourceTree = "<group>"; };
+		5CF411F76BD6F592D9C1022E /* Pods-ViperMCFSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperMCFSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		5EA12BD6CA462E0857F78825 /* FisrtModulePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModulePresenter.swift; sourceTree = "<group>"; };
+		6104F07A27CD7A4EA5D9548A /* SecondModuleInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleInitializer.swift; sourceTree = "<group>"; };
+		6D68FDC662A34434E98B49B3 /* SecondModuleViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleViewInput.swift; sourceTree = "<group>"; };
+		6DF7CF5051565335EE408993 /* FisrtModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleRouter.swift; sourceTree = "<group>"; };
+		70075D78C9E710A3458884BC /* ThirdModuleViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleViewInput.swift; sourceTree = "<group>"; };
+		79168F6179CEB6947467C686 /* ThirdModuleInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleInteractorOutput.swift; sourceTree = "<group>"; };
+		7A81BC986C53D3D0FCD7EA63 /* SecondModuleInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleInteractor.swift; sourceTree = "<group>"; };
+		7BF95806452565FD8A7FAD0B /* FisrtModuleViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleViewOutput.swift; sourceTree = "<group>"; };
+		82155F612B21B9187562ED52 /* ThirdModuleViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleViewOutput.swift; sourceTree = "<group>"; };
+		861E33561D3524DC00AD82C8 /* ViperMCFSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperMCFSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		861E33591D3524DC00AD82C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		861E335E1D3524DC00AD82C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		861E33601D3524DC00AD82C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		861E33631D3524DC00AD82C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		861E33651D3524DC00AD82C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884754E2DA2FC3608B5D86BA /* ThirdModuleInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleInteractorInput.swift; sourceTree = "<group>"; };
+		8D0E3BFF9D89C1FBD8FCCF31 /* FisrtModuleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleViewController.swift; sourceTree = "<group>"; };
+		9101F9F79DCCABF5C24CA7E0 /* ThirdModuleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleViewController.swift; sourceTree = "<group>"; };
+		91448E45BE99210F120D154F /* Pods_ViperMCFSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperMCFSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D0810C418A97DA29D02698 /* FisrtModuleInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleInteractor.swift; sourceTree = "<group>"; };
+		9E26C91EBF5B83EDEC2D126B /* SecondModuleRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleRouterInput.swift; sourceTree = "<group>"; };
+		A4C7599763FD4EDDBF4C4EE9 /* ThirdModulePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModulePresenter.swift; sourceTree = "<group>"; };
+		A644D1704027BD9DD9D11401 /* SecondModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleRouter.swift; sourceTree = "<group>"; };
+		AE4C69E3507F82DD72E3A301 /* ThirdModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleRouter.swift; sourceTree = "<group>"; };
+		B5F4D7A1FF9BDFD3F1EF0F67 /* FisrtModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleConfigurator.swift; sourceTree = "<group>"; };
+		CE6FC9269040919A2C1465DE /* SecondModuleInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleInteractorInput.swift; sourceTree = "<group>"; };
+		D260323C81B0A0F3ED4C9F36 /* SecondModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleConfigurator.swift; sourceTree = "<group>"; };
+		D39CE58C587494694C94C9BA /* FisrtModuleModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleModuleInput.swift; sourceTree = "<group>"; };
+		D58A887D4BA95BC6409DF680 /* SecondModuleViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleViewOutput.swift; sourceTree = "<group>"; };
+		D6EEFCAA195BF036B493387C /* Pods-ViperMCFSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperMCFSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift.release.xcconfig"; sourceTree = "<group>"; };
+		E6721517DE83E19CBCA64808 /* FisrtModuleRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleRouterInput.swift; sourceTree = "<group>"; };
+		EDEA947116ACFE4E4A35A30E /* ThirdModuleRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleRouterInput.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		861E33531D3524DC00AD82C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013BED803F37C84DBA2E2DA2 /* Pods_ViperMCFSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2262A5E638A1C80D4790EAC7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB08E590238149C7BBF41D /* FisrtModuleInteractorInput.swift */,
+				4FF9680D7D8AA933F06065B0 /* FisrtModuleInteractorOutput.swift */,
+				96D0810C418A97DA29D02698 /* FisrtModuleInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3088354C213C318B6D670D99 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				EDEA947116ACFE4E4A35A30E /* ThirdModuleRouterInput.swift */,
+				AE4C69E3507F82DD72E3A301 /* ThirdModuleRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		319AFEC0381D18C22AC72042 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D39CE58C587494694C94C9BA /* FisrtModuleModuleInput.swift */,
+				5EA12BD6CA462E0857F78825 /* FisrtModulePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		341768F88A5A6BB5FB65BC72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CF411F76BD6F592D9C1022E /* Pods-ViperMCFSwift.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		390ECD710D0714787E78BAF1 /* FisrtModule */ = {
+			isa = PBXGroup;
+			children = (
+				C9A9CD6DC1E94A36572B9535 /* View */,
+				319AFEC0381D18C22AC72042 /* Presenter */,
+				2262A5E638A1C80D4790EAC7 /* Interactor */,
+				677E1B77265D702CB4158E3E /* Router */,
+				BD4B4C171095CF8EDAC44746 /* Configurator */,
+			);
+			path = FisrtModule;
+			sourceTree = "<group>";
+		};
+		405831629690118376F9DFD3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3B4821B2C4AEFB14676875FC /* ThirdModuleModuleInput.swift */,
+				A4C7599763FD4EDDBF4C4EE9 /* ThirdModulePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4186143A9E52B6273107C4B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D68FDC662A34434E98B49B3 /* SecondModuleViewInput.swift */,
+				D58A887D4BA95BC6409DF680 /* SecondModuleViewOutput.swift */,
+				1945F4942F460C42F04393E1 /* SecondModuleViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4BFE667254F504B36AA7BF55 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CE6FC9269040919A2C1465DE /* SecondModuleInteractorInput.swift */,
+				48151DFF3EBE24545A215032 /* SecondModuleInteractorOutput.swift */,
+				7A81BC986C53D3D0FCD7EA63 /* SecondModuleInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		63B9AD650FB88B8D276BF680 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				390ECD710D0714787E78BAF1 /* FisrtModule */,
+				7E0F0DDF9E05A1286EC10D88 /* SecondModule */,
+				9D9EC5D761AF2A8C76135613 /* ThirdModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		677E1B77265D702CB4158E3E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E6721517DE83E19CBCA64808 /* FisrtModuleRouterInput.swift */,
+				6DF7CF5051565335EE408993 /* FisrtModuleRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		70616B42F044E86FB8BEE284 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9E26C91EBF5B83EDEC2D126B /* SecondModuleRouterInput.swift */,
+				A644D1704027BD9DD9D11401 /* SecondModuleRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7E0F0DDF9E05A1286EC10D88 /* SecondModule */ = {
+			isa = PBXGroup;
+			children = (
+				4186143A9E52B6273107C4B6 /* View */,
+				87250C0F147600F016DC89F7 /* Presenter */,
+				4BFE667254F504B36AA7BF55 /* Interactor */,
+				70616B42F044E86FB8BEE284 /* Router */,
+				A2187F9000C23E572C797999 /* Configurator */,
+			);
+			path = SecondModule;
+			sourceTree = "<group>";
+		};
+		861E334D1D3524DC00AD82C8 = {
+			isa = PBXGroup;
+			children = (
+				861E33581D3524DC00AD82C8 /* ViperMCFSwift */,
+				861E33571D3524DC00AD82C8 /* Products */,
+				341768F88A5A6BB5FB65BC72 /* Pods */,
+				D6EEFCAA195BF036B493387C /* Pods-ViperMCFSwift.release.xcconfig */,
+				DB3EB7F768217A7BCA76BCB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		861E33571D3524DC00AD82C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				861E33561D3524DC00AD82C8 /* ViperMCFSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		861E33581D3524DC00AD82C8 /* ViperMCFSwift */ = {
+			isa = PBXGroup;
+			children = (
+				861E336C1D35385C00AD82C8 /* Common */,
+				861E336B1D35384A00AD82C8 /* Supporting Files */,
+				63B9AD650FB88B8D276BF680 /* Modules */,
+				861E33591D3524DC00AD82C8 /* AppDelegate.swift */,
+			);
+			path = ViperMCFSwift;
+			sourceTree = "<group>";
+		};
+		861E336B1D35384A00AD82C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				861E33601D3524DC00AD82C8 /* Assets.xcassets */,
+				861E33651D3524DC00AD82C8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		861E336C1D35385C00AD82C8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				861E335D1D3524DC00AD82C8 /* Main.storyboard */,
+				861E33621D3524DC00AD82C8 /* LaunchScreen.storyboard */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		87250C0F147600F016DC89F7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				01E214C05D787639A7B2ECF8 /* SecondModuleModuleInput.swift */,
+				1626DDEFD2BBDA8A62A8F64B /* SecondModulePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9D9EC5D761AF2A8C76135613 /* ThirdModule */ = {
+			isa = PBXGroup;
+			children = (
+				AF2835F7E93DC4CB1463D65B /* View */,
+				405831629690118376F9DFD3 /* Presenter */,
+				A8BF3E14B4D44AACFC391CAE /* Interactor */,
+				3088354C213C318B6D670D99 /* Router */,
+				C18C0510E97C020C4AF41156 /* Configurator */,
+			);
+			path = ThirdModule;
+			sourceTree = "<group>";
+		};
+		A2187F9000C23E572C797999 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				D260323C81B0A0F3ED4C9F36 /* SecondModuleConfigurator.swift */,
+				6104F07A27CD7A4EA5D9548A /* SecondModuleInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		A8BF3E14B4D44AACFC391CAE /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				884754E2DA2FC3608B5D86BA /* ThirdModuleInteractorInput.swift */,
+				79168F6179CEB6947467C686 /* ThirdModuleInteractorOutput.swift */,
+				121CCD0D6BB9259C93258FF5 /* ThirdModuleInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		AF2835F7E93DC4CB1463D65B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70075D78C9E710A3458884BC /* ThirdModuleViewInput.swift */,
+				82155F612B21B9187562ED52 /* ThirdModuleViewOutput.swift */,
+				9101F9F79DCCABF5C24CA7E0 /* ThirdModuleViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD4B4C171095CF8EDAC44746 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				B5F4D7A1FF9BDFD3F1EF0F67 /* FisrtModuleConfigurator.swift */,
+				4492BFD45D33EC6C2FA1210F /* FisrtModuleInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		C18C0510E97C020C4AF41156 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				4211CED17DA41D4467BA50D4 /* ThirdModuleConfigurator.swift */,
+				553C07D330ED2B2B94EB706E /* ThirdModuleInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		C9A9CD6DC1E94A36572B9535 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31602E47F5B86BB7498AE2CD /* FisrtModuleViewInput.swift */,
+				7BF95806452565FD8A7FAD0B /* FisrtModuleViewOutput.swift */,
+				8D0E3BFF9D89C1FBD8FCCF31 /* FisrtModuleViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB3EB7F768217A7BCA76BCB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91448E45BE99210F120D154F /* Pods_ViperMCFSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		861E33551D3524DC00AD82C8 /* ViperMCFSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 861E33681D3524DC00AD82C8 /* Build configuration list for PBXNativeTarget "ViperMCFSwift" */;
+			buildPhases = (
+				81BDFA9C2F27914F21D9FAA9 /* [CP] Check Pods Manifest.lock */,
+				861E33521D3524DC00AD82C8 /* Sources */,
+				861E33531D3524DC00AD82C8 /* Frameworks */,
+				861E33541D3524DC00AD82C8 /* Resources */,
+				E1CDE0C0EACE1A774882182F /* [CP] Embed Pods Frameworks */,
+				D7391AE6F0E5F002BB3388CA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViperMCFSwift;
+			productName = ViperMCFSwift;
+			productReference = 861E33561D3524DC00AD82C8 /* ViperMCFSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		861E334E1D3524DC00AD82C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WebAnt;
+				TargetAttributes = {
+					861E33551D3524DC00AD82C8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 861E33511D3524DC00AD82C8 /* Build configuration list for PBXProject "ViperMCFSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 861E334D1D3524DC00AD82C8;
+			productRefGroup = 861E33571D3524DC00AD82C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				861E33551D3524DC00AD82C8 /* ViperMCFSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		861E33541D3524DC00AD82C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861E33641D3524DC00AD82C8 /* LaunchScreen.storyboard in Resources */,
+				861E33611D3524DC00AD82C8 /* Assets.xcassets in Resources */,
+				861E335F1D3524DC00AD82C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81BDFA9C2F27914F21D9FAA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7391AE6F0E5F002BB3388CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1CDE0C0EACE1A774882182F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		861E33521D3524DC00AD82C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861E335A1D3524DC00AD82C8 /* AppDelegate.swift in Sources */,
+				F0E24D450F86A67E0167232D /* FisrtModuleViewInput.swift in Sources */,
+				02AC0DB2B58E5D385CE5E92D /* FisrtModuleViewOutput.swift in Sources */,
+				B6E23A543623C32030D9F4DB /* FisrtModuleViewController.swift in Sources */,
+				4BFA267440B04656815411F7 /* FisrtModuleModuleInput.swift in Sources */,
+				AFE341EB05958730B091BBE8 /* FisrtModulePresenter.swift in Sources */,
+				8B750F0699F2A953F4EACF46 /* FisrtModuleInteractorInput.swift in Sources */,
+				CE9746BE3F53E50752D4763F /* FisrtModuleInteractorOutput.swift in Sources */,
+				92759F1B267BDCA8A0050681 /* FisrtModuleInteractor.swift in Sources */,
+				7D76CAF67E203D086FBE7465 /* FisrtModuleRouterInput.swift in Sources */,
+				D53925F2B67458A3B957F8C2 /* FisrtModuleRouter.swift in Sources */,
+				484C08A486BB051454A6E587 /* FisrtModuleConfigurator.swift in Sources */,
+				1F361F42FA060D89A2C3C2E9 /* FisrtModuleInitializer.swift in Sources */,
+				1D755DAC450803302933F11A /* SecondModuleViewInput.swift in Sources */,
+				481EB67CB5B0ECBEE5D9E5E8 /* SecondModuleViewOutput.swift in Sources */,
+				EA51B59D9DB7A7DB240CF08A /* SecondModuleViewController.swift in Sources */,
+				6A3C44042D585887D46EA72E /* SecondModuleModuleInput.swift in Sources */,
+				F0A9D4C68383886469AA0BA1 /* SecondModulePresenter.swift in Sources */,
+				6FA3647CF0EEF208AAA5CB60 /* SecondModuleInteractorInput.swift in Sources */,
+				921F2E89C10C8AA52B45009F /* SecondModuleInteractorOutput.swift in Sources */,
+				161EFEFE5AF92F80BF2C9067 /* SecondModuleInteractor.swift in Sources */,
+				E27B8368836C242703E7CA88 /* SecondModuleRouterInput.swift in Sources */,
+				DCE5E0CD6CCA0CD9A4A52F80 /* SecondModuleRouter.swift in Sources */,
+				D4432D9577518BD94942FA3E /* SecondModuleConfigurator.swift in Sources */,
+				F8176259DB9BB16075EA675C /* SecondModuleInitializer.swift in Sources */,
+				C0A49DCB33CCF662A0ADA6EE /* ThirdModuleViewInput.swift in Sources */,
+				DD090197469380B7A8E7AE27 /* ThirdModuleViewOutput.swift in Sources */,
+				DED05954D6D2F700153D866C /* ThirdModuleViewController.swift in Sources */,
+				38DAF27220F0C6D713FB5F97 /* ThirdModuleModuleInput.swift in Sources */,
+				B55535655555CC076578A822 /* ThirdModulePresenter.swift in Sources */,
+				8186544F273EE4E9F745A298 /* ThirdModuleInteractorInput.swift in Sources */,
+				7974A016C7AF527E5EA3E5F3 /* ThirdModuleInteractorOutput.swift in Sources */,
+				AE8F964B127E42E704B3593C /* ThirdModuleInteractor.swift in Sources */,
+				7359122C57CCD21E4F395731 /* ThirdModuleRouterInput.swift in Sources */,
+				E7E3E12DB06582F31676B6FD /* ThirdModuleRouter.swift in Sources */,
+				B8F9CEEC938AE9C954FB7251 /* ThirdModuleConfigurator.swift in Sources */,
+				2AD965D7A7AF5AA15D65F822 /* ThirdModuleInitializer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		861E335D1D3524DC00AD82C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				861E335E1D3524DC00AD82C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		861E33621D3524DC00AD82C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				861E33631D3524DC00AD82C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		861E33661D3524DC00AD82C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		861E33671D3524DC00AD82C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		861E33691D3524DC00AD82C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF411F76BD6F592D9C1022E /* Pods-ViperMCFSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViperMCFSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.webant.ViperMCFSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		861E336A1D3524DC00AD82C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6EEFCAA195BF036B493387C /* Pods-ViperMCFSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViperMCFSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.webant.ViperMCFSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		861E33511D3524DC00AD82C8 /* Build configuration list for PBXProject "ViperMCFSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861E33661D3524DC00AD82C8 /* Debug */,
+				861E33671D3524DC00AD82C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		861E33681D3524DC00AD82C8 /* Build configuration list for PBXNativeTarget "ViperMCFSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861E33691D3524DC00AD82C8 /* Debug */,
+				861E336A1D3524DC00AD82C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 861E334E1D3524DC00AD82C8 /* Project object */;
+}
