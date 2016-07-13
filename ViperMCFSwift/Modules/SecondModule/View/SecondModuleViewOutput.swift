@@ -6,7 +6,9 @@
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
-protocol SecondModuleViewOutput {
+import Foundation
+
+@objc protocol SecondModuleViewOutput {
 
     /**
         @author SpectralDragon
