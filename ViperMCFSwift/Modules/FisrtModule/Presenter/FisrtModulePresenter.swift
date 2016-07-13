@@ -25,11 +25,11 @@ class FisrtModulePresenter: FisrtModuleModuleInput, FisrtModuleViewOutput, Fisrt
     }
     
     
-    func instantiateSecondModule() {
+    func instantiateThirdModule() {
         weak var wself = self
         view.getDataWithResultBlock { (data) in
             let sself = wself
-            sself?.router.instantiateSecondModuleWithExampleString(data)
+            sself?.router.instantiateThirdModuleWithExampleString(data)
         }
     }
     

@@ -33,7 +33,7 @@
                                 <rect key="frame" x="191" y="194" width="219" height="30"/>
                                 <state key="normal" title="Instantiate Second With Factory"/>
                                 <connections>
-                                    <action selector="didClickInstantiateSecondModule:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ALg-d4-Dk4"/>
+                                    <action selector="didClickInstantiateThirdModule:" destination="BYZ-38-t0r" eventType="touchUpInside" id="erP-0m-Nao"/>
                                 </connections>
                             </button>
                         </subviews>

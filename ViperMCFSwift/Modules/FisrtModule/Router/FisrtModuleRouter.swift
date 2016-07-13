@@ -26,7 +26,7 @@ class FisrtModuleRouter: NSObject, FisrtModuleRouterInput {
         }
     }
     
-    func instantiateSecondModuleWithExampleString(data: String) {
+    func instantiateThirdModuleWithExampleString(data: String) {
         transitionHandler.openModuleUsingFactory!(transitionModuleFactory) { sourceModuleTransitionHandler, destinationModuleTransitionHandler in
             let sourceVC = sourceModuleTransitionHandler as! UIViewController
             let destinationVC = destinationModuleTransitionHandler as! UIViewController

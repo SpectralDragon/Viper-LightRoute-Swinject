@@ -15,5 +15,5 @@ protocol FisrtModuleViewOutput {
 
     func viewIsReady()
     func sendDataButtonClicled()
-    func instantiateSecondModule()
+    func instantiateThirdModule()
 }

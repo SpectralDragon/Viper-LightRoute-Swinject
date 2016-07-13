@@ -31,8 +31,8 @@ class FisrtModuleViewController: UIViewController, FisrtModuleViewInput {
         output.sendDataButtonClicled()
     }
     
-    @IBAction func didClickInstantiateSecondModule(sender: AnyObject) {
+    @IBAction func didClickInstantiateThirdModule(sender: AnyObject) {
         textField.resignFirstResponder()
-        output.instantiateSecondModule()
+        output.instantiateThirdModule()
     }
 }
