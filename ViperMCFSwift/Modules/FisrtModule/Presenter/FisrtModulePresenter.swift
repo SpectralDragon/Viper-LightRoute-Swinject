@@ -17,19 +17,15 @@ class FisrtModulePresenter: FisrtModuleModuleInput, FisrtModuleViewOutput, Fisrt
     }
     
     func sendDataButtonClicled() {
-        weak var wself = self
-        view.getDataWithResultBlock { (data) in
-            let sself = wself
-            sself?.router.openSecondModuleWithExampleString(data)
+        view.getDataWithResultBlock { [weak self] (data) in
+            self?.router.openSecondModuleWithExampleString(data)
         }
     }
     
     
     func instantiateThirdModule() {
-        weak var wself = self
-        view.getDataWithResultBlock { (data) in
-            let sself = wself
-            sself?.router.instantiateThirdModuleWithExampleString(data)
+        view.getDataWithResultBlock { [weak self] (data) in
+            self?.router.instantiateThirdModuleWithExampleString(data)
         }
     }
     
