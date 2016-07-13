@@ -8,6 +8,4 @@
 
 import ViperMcFlurry
 
-class ThirdModuleFactory: RamblerViperModuleFactory { }
-
 class ThirdModuleRouter: ThirdModuleRouterInput { }

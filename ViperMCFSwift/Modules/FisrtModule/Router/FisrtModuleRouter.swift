@@ -11,9 +11,16 @@ import Foundation
 
 class FisrtModuleRouter: NSObject, FisrtModuleRouterInput {
     
+    let mainStoryBoard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
     let segueIdentifier = "detailSecondSegue"
+    let thirdModuleID = "thirdModuleController"
+    
     var transitionHandler: RamblerViperModuleTransitionHandlerProtocol!
-    var transitionModuleFactory: RamblerViperModuleFactoryProtocol!
+    
+    var transitionModuleFactory: RamblerViperModuleFactory {
+        let factory = RamblerViperModuleFactory(storyboard: mainStoryBoard, andRestorationId: thirdModuleID)
+        return factory
+    }
 
     
     func openSecondModuleWithExampleString(data: String) {
