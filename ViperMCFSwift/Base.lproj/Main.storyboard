@@ -29,12 +29,21 @@
                                     <action selector="didClickSendDataButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tip-2P-Bqw"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo3-TH-Y8a">
+                                <rect key="frame" x="191" y="194" width="219" height="30"/>
+                                <state key="normal" title="Instantiate Second With Factory"/>
+                                <connections>
+                                    <action selector="didClickInstantiateThirdModule:" destination="BYZ-38-t0r" eventType="touchUpInside" id="erP-0m-Nao"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="7BX-kf-aYQ" firstAttribute="centerX" secondItem="CME-G8-Mxm" secondAttribute="centerX" id="LzT-iU-EFz"/>
+                            <constraint firstItem="yo3-TH-Y8a" firstAttribute="top" secondItem="7BX-kf-aYQ" secondAttribute="bottom" constant="8" id="Oc7-Oz-f3P"/>
                             <constraint firstItem="CME-G8-Mxm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TEV-vY-A5b"/>
                             <constraint firstAttribute="trailing" secondItem="CME-G8-Mxm" secondAttribute="trailing" constant="20" id="alc-qC-wfw"/>
+                            <constraint firstItem="yo3-TH-Y8a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dc5-r8-OPB"/>
                             <constraint firstItem="CME-G8-Mxm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="hKs-BK-bXn"/>
                             <constraint firstItem="CME-G8-Mxm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="48" id="hlz-pD-fet"/>
                             <constraint firstItem="7BX-kf-aYQ" firstAttribute="top" secondItem="CME-G8-Mxm" secondAttribute="bottom" constant="14" id="iOm-kL-Cfl"/>
@@ -55,10 +64,48 @@
             </objects>
             <point key="canvasLocation" x="1036" y="321"/>
         </scene>
+        <!--Thirdmodule View Controller-->
+        <scene sceneID="rFb-qN-wCg">
+            <objects>
+                <viewController restorationIdentifier="thirdModuleController" storyboardIdentifier="thirdModuleController" id="lxN-ip-Fdo" customClass="ThirdModuleViewController" customModule="ViperMCFSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f6T-IG-Xto"/>
+                        <viewControllerLayoutGuide type="bottom" id="MR5-4h-GHr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UsL-Ig-wME">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7p-F3-Znb">
+                                <rect key="frame" x="279" y="289" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80784314869999996" green="0.027450980619999999" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="T7p-F3-Znb" firstAttribute="centerX" secondItem="UsL-Ig-wME" secondAttribute="centerX" id="nuI-k5-oGH"/>
+                            <constraint firstItem="T7p-F3-Znb" firstAttribute="centerY" secondItem="UsL-Ig-wME" secondAttribute="centerY" id="smg-Bg-0BV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="exampleStringLabel" destination="T7p-F3-Znb" id="vQ6-3C-Ja0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="71d-mP-gsi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="IJo-4N-oeD" customClass="ThirdModuleModuleInitializer" customModule="ViperMCFSwift" customModuleProvider="target">
+                    <connections>
+                        <outlet property="thirdmoduleViewController" destination="lxN-ip-Fdo" id="sxH-TU-umO"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="1032" y="993"/>
+        </scene>
         <!--Secondmodule View Controller-->
         <scene sceneID="I9m-pE-jj2">
             <objects>
-                <viewController storyboardIdentifier="secondModuleController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Luh-0b-HN1" customClass="SecondModuleViewController" customModule="ViperMCFSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="secondModuleController" storyboardIdentifier="secondModuleController" id="Luh-0b-HN1" customClass="SecondModuleViewController" customModule="ViperMCFSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tKi-uU-Hcc"/>
                         <viewControllerLayoutGuide type="bottom" id="ctG-6c-cWV"/>

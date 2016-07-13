@@ -36,5 +36,4 @@ xcuserdata
 #Pods/
 Pods/
 Podfile.lock
-./idea
-
+.idea/
