@@ -1,0 +1,3 @@
+[submodule "Templates/viperSwift"]
+	path = Templates/viperSwift
+	url = git@github.com:SpectralDragon/viperSwift.git
