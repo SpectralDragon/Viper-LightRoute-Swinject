@@ -35,7 +35,7 @@ class FisrtModuleRouter: NSObject, FisrtModuleRouterInput {
 	
 	//Open module use fabric
 	func instantiateThirdModuleWith(exampleString data: String) {
-		transitionHandler.openModule!(using: transitionModuleFactory) { sourceModuleTransitionHandler, destinationModuleTransitionHandler in
+		transitionHandler.openModule!(usingFactory: transitionModuleFactory) { sourceModuleTransitionHandler, destinationModuleTransitionHandler in
 			let sourceVC = sourceModuleTransitionHandler as! UIViewController
 			let destinationVC = destinationModuleTransitionHandler as! UIViewController
 			sourceVC.navigationController?.pushViewController(destinationVC, animated: true)
