@@ -10,6 +10,6 @@ import Foundation
 import ViperMcFlurry
 
 protocol FisrtModuleRouterInput: RamblerViperModuleInput {
-    func openSecondModuleWithExampleString(data: String)
-    func instantiateThirdModuleWithExampleString(data: String)
+	func openSecondModuleWith(exampleString data: String)
+	func instantiateThirdModuleWith(exampleString data: String)
 }

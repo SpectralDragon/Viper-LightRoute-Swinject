@@ -4,5 +4,7 @@
  use_frameworks!
 
 target 'ViperMCFSwift' do
- pod 'ViperMcFlurry', :git => 'git@github.com:rambler-ios/ViperMcFlurry.git', :branch => 'master'
+  pod 'ViperMcFlurry'
+  pod 'Swinject', '2.0.0-beta.2'
+  pod 'SwinjectStoryboard', '1.0.0-beta.2'
 end

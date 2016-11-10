@@ -7,13 +7,13 @@
 //
 
 protocol FisrtModuleViewOutput {
-
-    /**
-        @author SpectralDragon
-        Notify presenter that view is ready
-    */
-
-    func viewIsReady()
-    func sendDataButtonClicled()
-    func instantiateThirdModule()
+	
+	/**
+		@author SpectralDragon
+		Notify presenter that view is ready
+	*/
+	
+	func viewIsReady()
+	func sendDataButtonClicled()
+	func instantiateThirdModule()
 }

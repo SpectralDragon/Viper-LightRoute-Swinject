@@ -7,11 +7,11 @@
 //
 
 protocol SecondModuleViewInput: class {
-
-    /**
-        @author SpectralDragon
-        Setup initial state of the view
-    */
-
-    func setExampleString(data: String)
+	
+	/**
+		@author SpectralDragon
+		Setup initial state of the view
+	*/
+	
+	func setExampleString(data: String)
 }

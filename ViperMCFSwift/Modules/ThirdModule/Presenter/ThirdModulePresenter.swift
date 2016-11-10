@@ -9,18 +9,18 @@
 import Foundation
 
 class ThirdModulePresenter: NSObject, ThirdModuleModuleInput, ThirdModuleViewOutput, ThirdModuleInteractorOutput {
-
-    weak var view: ThirdModuleViewInput!
-    var interactor: ThirdModuleInteractorInput!
-    var router: ThirdModuleRouterInput!
-    
-    var exampleString: String?
-    
-    func viewIsReady() {
-        view.setExampleString(exampleString!)
-    }
-    
-    func configureWithExampleString(data: String) {
-        exampleString = data
-    }
+	
+	weak var view: ThirdModuleViewInput!
+	var interactor: ThirdModuleInteractorInput!
+	var router: ThirdModuleRouterInput!
+	
+	var exampleString: String?
+	
+	func viewIsReady() {
+		view.setExampleString(data: exampleString!)
+	}
+	
+	func configureWith(exampleString data: String) {
+		exampleString = data
+	}
 }

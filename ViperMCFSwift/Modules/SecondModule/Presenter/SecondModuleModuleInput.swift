@@ -9,5 +9,5 @@
 import ViperMcFlurry
 
 protocol SecondModuleModuleInput: class, RamblerViperModuleInput {
-    func configureWithExampleString(data: String)
+	func configureWith(exampleString data: String)
 }
