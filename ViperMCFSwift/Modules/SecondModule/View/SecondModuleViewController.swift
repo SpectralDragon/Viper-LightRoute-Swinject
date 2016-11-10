@@ -10,19 +10,20 @@ import UIKit
 import ViperMcFlurry
 
 class SecondModuleViewController: UIViewController, SecondModuleViewInput {
-
-    @IBOutlet weak var exampleStringLabel: UILabel!
-    
-    var output: SecondModuleViewOutput!
-
-    // MARK: Life cycle
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        output.viewIsReady()
-    }
-
-    // MARK: SecondModuleViewInput
-    func setExampleString(data: String) {
-        exampleStringLabel.text = data
-    }
+	
+	@IBOutlet weak var exampleStringLabel: UILabel!
+	
+	var output: SecondModuleViewOutput!
+	
+	// MARK: Life cycle
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		output.viewIsReady()
+	}
+	
+	// MARK: SecondModuleViewInput
+	func setExampleString(data: String) {
+		exampleStringLabel.text = data
+	}
+	
 }

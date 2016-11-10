@@ -7,7 +7,7 @@
 //
 
 class FisrtModuleInteractor: FisrtModuleInteractorInput {
-
-    weak var output: FisrtModuleInteractorOutput!
-
+	
+	weak var output: FisrtModuleInteractorOutput!
+	
 }

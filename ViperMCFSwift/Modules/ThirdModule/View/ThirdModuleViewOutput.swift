@@ -8,11 +8,11 @@
 import Foundation
 
 @objc protocol ThirdModuleViewOutput {
-
-    /**
-        @author gnatok
-        Notify presenter that view is ready
-    */
-
-    func viewIsReady()
+	
+	/**
+		@author gnatok
+		Notify presenter that view is ready
+	*/
+	
+	func viewIsReady()
 }

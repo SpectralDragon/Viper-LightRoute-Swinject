@@ -7,7 +7,7 @@
 //
 
 class SecondModuleInteractor: SecondModuleInteractorInput {
-
-    weak var output: SecondModuleInteractorOutput!
-
+	
+	weak var output: SecondModuleInteractorOutput!
+	
 }

@@ -9,18 +9,18 @@
 import Foundation
 
 class SecondModulePresenter: NSObject, SecondModuleModuleInput, SecondModuleViewOutput, SecondModuleInteractorOutput {
-
-    weak var view: SecondModuleViewInput!
-    var interactor: SecondModuleInteractorInput!
-    var router: SecondModuleRouterInput!
-    
-    var exampleString: String?
-
-    func viewIsReady() {
-        view.setExampleString(exampleString!)
-    }
-    
-    func configureWithExampleString(data: String) {
-        exampleString = data
-    }
+	
+	weak var view: SecondModuleViewInput!
+	var interactor: SecondModuleInteractorInput!
+	var router: SecondModuleRouterInput!
+	
+	var exampleString: String?
+	
+	func viewIsReady() {
+		view.setExampleString(data: exampleString!)
+	}
+	
+	func configureWith(exampleString data: String) {
+		exampleString = data
+	}
 }

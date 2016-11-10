@@ -7,11 +7,11 @@
 //
 
 protocol ThirdModuleViewInput: class {
-
-    /**
-        @author gnatok
-        Setup initial state of the view
-    */
-
-    func setExampleString(data: String)
+	
+	/**
+		@author gnatok
+		Setup initial state of the view
+	*/
+	
+	func setExampleString(data: String)
 }

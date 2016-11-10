@@ -7,7 +7,7 @@
 //
 
 class ThirdModuleInteractor: ThirdModuleInteractorInput {
-
-    weak var output: ThirdModuleInteractorOutput!
-
+	
+	weak var output: ThirdModuleInteractorOutput!
+	
 }
