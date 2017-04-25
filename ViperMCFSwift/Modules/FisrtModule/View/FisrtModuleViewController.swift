@@ -2,35 +2,38 @@
 //  FisrtModuleFisrtModuleViewController.swift
 //  ViperMCFSwift
 //
-//  Created by SpectralDragon on 12/07/2016.
+//  Created by Vladislav Prusakov on 12/07/2016.
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
 import UIKit
 
-class FisrtModuleViewController: UIViewController, FisrtModuleViewInput {
+final class FisrtModuleViewController: UIViewController, FisrtModuleViewInput {
 	
+	// MARK: -
+	// MARK: Properties
 	@IBOutlet weak var textField: UITextField!
 	
 	var output: FisrtModuleViewOutput!
 	
+	// MARK: -
 	// MARK: Life cycle
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		output.viewIsReady()
 	}
 	
-	
+	// MARK: -
 	// MARK: FisrtModuleViewInput
-	func getDataWithResultBlock(resultBlock: DataResultBlock) {
-		resultBlock(textField.text!)
+	func getDataFromTextField(resultBlock: DataResultBlock) {
+		resultBlock(textField.text ?? "")
 	}
 	
 	
+	// MARK: -
 	// MARK: User action
 	@IBAction func didClickSendDataButton(_ sender: UIButton) {
 		textField.resignFirstResponder()
-		output.sendDataButtonClicled()
+		output.sendDataButtonClicked()
 	}
 	
 	@IBAction func didClickInstantiateThirdModule(_ sender: AnyObject) {

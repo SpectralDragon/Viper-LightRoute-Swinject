@@ -4,7 +4,7 @@
  use_frameworks!
 
 target 'ViperMCFSwift' do
-  pod 'ViperMcFlurry'
-  pod 'Swinject', '2.0.0-beta.2'
-  pod 'SwinjectStoryboard', '1.0.0-beta.2'
+  pod 'LightRoute'
+  pod 'Swinject', '~> 2.0.0'
+  pod 'SwinjectStoryboard', '~> 1.0.0'
 end

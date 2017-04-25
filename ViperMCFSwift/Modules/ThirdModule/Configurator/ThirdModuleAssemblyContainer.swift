@@ -6,11 +6,10 @@
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
-import UIKit
 import Swinject
 import SwinjectStoryboard
 
-class ThirdModuleAssemblyContainer: AssemblyType {
+final class ThirdModuleAssemblyContainer: Assembly {
 	
 	func assemble(container: Container) {
 		container.register(ThirdModuleInteractor.self) { (r, presenter: ThirdModulePresenter) in
@@ -33,7 +32,7 @@ class ThirdModuleAssemblyContainer: AssemblyType {
 			return presenter
 		}
 		
-		container.registerForStoryboard(ThirdModuleViewController.self) { r, viewController in
+		container.storyboardInitCompleted(ThirdModuleViewController.self) { r, viewController in
 			viewController.output = r.resolve(ThirdModulePresenter.self, argument: viewController)
 		}
 	}

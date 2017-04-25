@@ -2,31 +2,40 @@
 //  FisrtModuleFisrtModulePresenter.swift
 //  ViperMCFSwift
 //
-//  Created by SpectralDragon on 12/07/2016.
+//  Created by Vladislav Prusakov on 12/07/2016.
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
-class FisrtModulePresenter: FisrtModuleModuleInput, FisrtModuleViewOutput, FisrtModuleInteractorOutput {
+final class FisrtModulePresenter: FisrtModuleViewOutput {
 	
 	weak var view: FisrtModuleViewInput!
 	var interactor: FisrtModuleInteractorInput!
 	var router: FisrtModuleRouterInput!
 	
-	func viewIsReady() {
-		
-	}
 	
-	func sendDataButtonClicled() {
-		view.getDataWithResultBlock { [weak self] string in
-			self?.router.openSecondModuleWith(exampleString: string)
+	func sendDataButtonClicked() {
+		view.getDataFromTextField { [weak self] string in
+			self?.router.openSecondModule(with: string)
 		}
 	}
 	
 	
 	func instantiateThirdModule() {
-		view.getDataWithResultBlock { [weak self] string in
-			self?.router.instantiateThirdModuleWith(exampleString: string)
+		view.getDataFromTextField { [weak self] string in
+			self?.router.instantiateThirdModule(with: string)
 		}
 	}
+	
+}
+
+// MARK: -
+// MARK: FisrtModuleModuleInput
+extension FisrtModulePresenter: FisrtModuleModuleInput {
+	
+}
+
+// MARK: -
+// MARK: FisrtModuleInteractorOutput
+extension FisrtModulePresenter: FisrtModuleInteractorOutput {
 	
 }

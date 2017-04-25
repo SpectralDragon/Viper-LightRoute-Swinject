@@ -6,7 +6,7 @@
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
-class ThirdModuleInteractor: ThirdModuleInteractorInput {
+final class ThirdModuleInteractor: ThirdModuleInteractorInput {
 	
 	weak var output: ThirdModuleInteractorOutput!
 	

@@ -1,8 +1,8 @@
-# ViperMCFlurrySwift v3.0
+# ViperMCFlurrySwift v3.2
 
-A small example of the use of the library by Rambler and DI Container "Swinject". Links to sources:
+A small example of the use DI Container "Swinject" and small library for transition between Viper Modules. Links to sources:
 
-* [ViperMcFlurry](https://github.com/rambler-digital-solutions/ViperMcFlurry) (Helpers for creation proper module connections and routing)
+* [LightRoute](https://github.com/SpectralDragon/LightRoute) (Helpers for creation proper module connections and routing)
 * [Generamba](https://github.com/rambler-digital-solutions/Generamba) (automatic VIPER module generator) 
 * [The Book of Viper](https://github.com/rambler-digital-solutions/The-Book-of-VIPER) (Example created by the inspiration from this book) 
 * [Swinject](https://github.com/Swinject/Swinject) (Dependency injection framework for Swift)

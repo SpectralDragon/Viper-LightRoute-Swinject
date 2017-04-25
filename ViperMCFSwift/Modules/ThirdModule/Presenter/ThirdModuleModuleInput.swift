@@ -6,8 +6,6 @@
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
-import ViperMcFlurry
-
-protocol ThirdModuleModuleInput: class, RamblerViperModuleInput {
-	func configureWith(exampleString data: String)
+protocol ThirdModuleModuleInput: class {
+	func configure(with data: String)
 }

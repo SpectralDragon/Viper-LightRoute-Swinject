@@ -6,6 +6,4 @@
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
-import ViperMcFlurry
-
-class ThirdModuleRouter: ThirdModuleRouterInput { }
+final class ThirdModuleRouter: ThirdModuleRouterInput { }

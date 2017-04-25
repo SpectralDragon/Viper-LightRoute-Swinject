@@ -6,8 +6,4 @@
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
-import Foundation
-
-protocol ThirdModuleRouterInput {
-	
-}
+protocol ThirdModuleRouterInput: class { }

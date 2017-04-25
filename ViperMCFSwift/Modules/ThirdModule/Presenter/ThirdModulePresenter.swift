@@ -6,21 +6,32 @@
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
-import Foundation
-
-class ThirdModulePresenter: NSObject, ThirdModuleModuleInput, ThirdModuleViewOutput, ThirdModuleInteractorOutput {
+final class ThirdModulePresenter: ThirdModuleViewOutput {
 	
 	weak var view: ThirdModuleViewInput!
 	var interactor: ThirdModuleInteractorInput!
 	var router: ThirdModuleRouterInput!
 	
-	var exampleString: String?
+	var exampleString: String = ""
 	
 	func viewIsReady() {
-		view.setExampleString(data: exampleString!)
+		view.setExampleString(data: exampleString)
 	}
 	
-	func configureWith(exampleString data: String) {
+}
+
+// MARK: -
+// MARK: ThirdModuleModuleInput
+extension ThirdModulePresenter: ThirdModuleModuleInput {
+
+	func configure(with data: String) {
 		exampleString = data
 	}
+	
+}
+
+// MARK: -
+// MARK: ThirdModuleInteractorOutput
+extension ThirdModulePresenter: ThirdModuleInteractorOutput {
+	
 }

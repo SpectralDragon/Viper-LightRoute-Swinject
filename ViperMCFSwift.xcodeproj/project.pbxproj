@@ -147,11 +147,11 @@
 		390ECD710D0714787E78BAF1 /* FisrtModule */ = {
 			isa = PBXGroup;
 			children = (
+				BD4B4C171095CF8EDAC44746 /* Assembly */,
 				C9A9CD6DC1E94A36572B9535 /* View */,
 				319AFEC0381D18C22AC72042 /* Presenter */,
 				2262A5E638A1C80D4790EAC7 /* Interactor */,
 				677E1B77265D702CB4158E3E /* Router */,
-				BD4B4C171095CF8EDAC44746 /* Configurator */,
 			);
 			path = FisrtModule;
 			sourceTree = "<group>";
@@ -215,11 +215,11 @@
 		7E0F0DDF9E05A1286EC10D88 /* SecondModule */ = {
 			isa = PBXGroup;
 			children = (
+				A2187F9000C23E572C797999 /* Assembly */,
 				4186143A9E52B6273107C4B6 /* View */,
 				87250C0F147600F016DC89F7 /* Presenter */,
 				4BFE667254F504B36AA7BF55 /* Interactor */,
 				70616B42F044E86FB8BEE284 /* Router */,
-				A2187F9000C23E572C797999 /* Configurator */,
 			);
 			path = SecondModule;
 			sourceTree = "<group>";
@@ -310,20 +310,21 @@
 		9D9EC5D761AF2A8C76135613 /* ThirdModule */ = {
 			isa = PBXGroup;
 			children = (
+				C18C0510E97C020C4AF41156 /* Assembly */,
 				AF2835F7E93DC4CB1463D65B /* View */,
 				405831629690118376F9DFD3 /* Presenter */,
 				A8BF3E14B4D44AACFC391CAE /* Interactor */,
 				3088354C213C318B6D670D99 /* Router */,
-				C18C0510E97C020C4AF41156 /* Configurator */,
 			);
 			path = ThirdModule;
 			sourceTree = "<group>";
 		};
-		A2187F9000C23E572C797999 /* Configurator */ = {
+		A2187F9000C23E572C797999 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
 				D260323C81B0A0F3ED4C9F36 /* SecondModuleAssemblyContainer.swift */,
 			);
+			name = Assembly;
 			path = Configurator;
 			sourceTree = "<group>";
 		};
@@ -347,19 +348,21 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		BD4B4C171095CF8EDAC44746 /* Configurator */ = {
+		BD4B4C171095CF8EDAC44746 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
 				B5F4D7A1FF9BDFD3F1EF0F67 /* FisrtModuleAssemblyContainer.swift */,
 			);
+			name = Assembly;
 			path = Configurator;
 			sourceTree = "<group>";
 		};
-		C18C0510E97C020C4AF41156 /* Configurator */ = {
+		C18C0510E97C020C4AF41156 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
 				4211CED17DA41D4467BA50D4 /* ThirdModuleAssemblyContainer.swift */,
 			);
+			name = Assembly;
 			path = Configurator;
 			sourceTree = "<group>";
 		};
@@ -465,7 +468,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D7391AE6F0E5F002BB3388CA /* [CP] Copy Pods Resources */ = {

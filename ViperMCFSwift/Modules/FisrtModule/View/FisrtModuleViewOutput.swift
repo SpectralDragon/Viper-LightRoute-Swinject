@@ -2,18 +2,21 @@
 //  FisrtModuleFisrtModuleViewOutput.swift
 //  ViperMCFSwift
 //
-//  Created by SpectralDragon on 12/07/2016.
+//  Created by Vladislav Prusakov on 12/07/2016.
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
-protocol FisrtModuleViewOutput {
+protocol FisrtModuleViewOutput: class {
 	
-	/**
-		@author SpectralDragon
-		Notify presenter that view is ready
-	*/
+	///
+	/// - author: Vladislav Prusakov
+	/// Notify presenter that send data button clicked
+	///
+	func sendDataButtonClicked()
 	
-	func viewIsReady()
-	func sendDataButtonClicled()
+	///
+	/// - author: Vladislav Prusakov
+	/// Notify presenter that send data button clicked on third module
+	///
 	func instantiateThirdModule()
 }

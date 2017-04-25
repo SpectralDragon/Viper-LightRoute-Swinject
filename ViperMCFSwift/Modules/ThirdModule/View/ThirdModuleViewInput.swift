@@ -8,10 +8,10 @@
 
 protocol ThirdModuleViewInput: class {
 	
-	/**
-		@author gnatok
-		Setup initial state of the view
-	*/
+	///
+	/// - author: gnatok
+	///	Setup initial state of the view
+	///
 	
 	func setExampleString(data: String)
 }

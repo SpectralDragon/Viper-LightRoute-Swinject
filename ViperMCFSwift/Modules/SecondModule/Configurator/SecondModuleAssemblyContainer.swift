@@ -2,15 +2,14 @@
 //  SecondModuleSecondModuleConfigurator.swift
 //  ViperMCFSwift
 //
-//  Created by SpectralDragon on 12/07/2016.
+//  Created by Vladislav Prusakov on 12/07/2016.
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
-import UIKit
 import Swinject
 import SwinjectStoryboard
 
-class SecondModuleAssemblyContainer: AssemblyType {
+final class SecondModuleAssemblyContainer: Assembly {
 	
 	func assemble(container: Container) {
 		container.register(SecondModuleInteractor.self) { (r, presenter: SecondModulePresenter) in
@@ -33,7 +32,7 @@ class SecondModuleAssemblyContainer: AssemblyType {
 			return presenter
 		}
 		
-		container.registerForStoryboard(SecondModuleViewController.self) { r, viewController in
+		container.storyboardInitCompleted(SecondModuleViewController.self) { r, viewController in
 			viewController.output = r.resolve(SecondModulePresenter.self, argument: viewController)
 		}
 	}

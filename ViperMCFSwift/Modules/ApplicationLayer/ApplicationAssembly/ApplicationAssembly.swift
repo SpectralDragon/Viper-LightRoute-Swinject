@@ -2,15 +2,14 @@
 //  ApplicationAssembly.swift
 //  ViperMCFSwift
 //
-//  Created by Владислав on 11.11.16.
+//  Created by Vladislav Prusakov on 11.11.16.
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
-import Foundation
 import Swinject
 import SwinjectStoryboard
 
-class ApplicationAssembly {
+final class ApplicationAssembly {
 	
 	//Use default dependency
 	class var assembler: Assembler {
@@ -24,7 +23,7 @@ class ApplicationAssembly {
 	var assembler: Assembler
 	
 	//If you want use custom Assembler
-	init(with assemblies: [AssemblyType]) {
+	init(with assemblies: [Assembly]) {
 		assembler = try! Assembler(assemblies: assemblies)
 	}
 	

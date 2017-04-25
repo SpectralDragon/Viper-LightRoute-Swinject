@@ -2,15 +2,14 @@
 //  FisrtModuleFisrtModuleConfigurator.swift
 //  ViperMCFSwift
 //
-//  Created by SpectralDragon on 12/07/2016.
+//  Created by Vladislav Prusakov on 12/07/2016.
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
-import UIKit
 import Swinject
 import SwinjectStoryboard
 
-class FisrtModuleAssemblyContainer: AssemblyType {
+final class FisrtModuleAssemblyContainer: Assembly {
 	
 	//Module assembly
 	func assemble(container: Container) {
@@ -37,7 +36,7 @@ class FisrtModuleAssemblyContainer: AssemblyType {
 			return presenter
 		}
 		
-		container.registerForStoryboard(FisrtModuleViewController.self) { r, viewController in
+		container.storyboardInitCompleted(FisrtModuleViewController.self) { r, viewController in
 			viewController.output = r.resolve(FisrtModulePresenter.self, argument: viewController)
 		}
 	}

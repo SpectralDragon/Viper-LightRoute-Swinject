@@ -2,14 +2,13 @@
 //  SecondModuleSecondModuleViewController.swift
 //  ViperMCFSwift
 //
-//  Created by SpectralDragon on 12/07/2016.
+//  Created by Vladislav Prusakov on 12/07/2016.
 //  Copyright © 2016 WebAnt. All rights reserved.
 //
 
 import UIKit
-import ViperMcFlurry
 
-class SecondModuleViewController: UIViewController, SecondModuleViewInput {
+final class SecondModuleViewController: UIViewController, SecondModuleViewInput {
 	
 	@IBOutlet weak var exampleStringLabel: UILabel!
 	

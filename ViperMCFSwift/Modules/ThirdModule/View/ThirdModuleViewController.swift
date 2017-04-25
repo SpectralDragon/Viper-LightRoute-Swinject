@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ThirdModuleViewController: UIViewController, ThirdModuleViewInput {
+final class ThirdModuleViewController: UIViewController, ThirdModuleViewInput {
 	
 	@IBOutlet weak var exampleStringLabel: UILabel!
 	
