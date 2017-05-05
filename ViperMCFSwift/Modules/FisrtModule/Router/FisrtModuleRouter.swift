@@ -24,7 +24,7 @@ final class FisrtModuleRouter: FisrtModuleRouterInput {
 	}()
 	
 	// MARK: Public
-	var transitionHandler: TransitionHandler!
+	weak var transitionHandler: TransitionHandler!
 	
 	// MARK: -
 	// MARK: FisrtModuleRouterInput
