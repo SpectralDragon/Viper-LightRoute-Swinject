@@ -38,7 +38,7 @@ final class FisrtModuleRouter: FisrtModuleRouterInput {
 	
 	// Open module use fabric
 	func instantiateThirdModule(with data: String) {
-		transitionHandler
+		try! transitionHandler
 			.forStoryboard(factory: self.transitionModuleFactory, to: ThirdModuleModuleInput.self)
 			.then { moduleInput in
 				moduleInput.configure(with: data)
