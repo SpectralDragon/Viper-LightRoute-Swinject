@@ -31,7 +31,7 @@ final class FisrtModuleRouter: FisrtModuleRouterInput {
 	
 	// Open module use Segue
 	func openSecondModule(with data: String) {
-		transitionHandler.forSegue(identifier: segueIdentifier, to: SecondModuleModuleInput.self).then { moduleInput in
+		try! transitionHandler.forSegue(identifier: segueIdentifier, to: SecondModuleModuleInput.self).then { moduleInput in
 			moduleInput.configure(with: data)
 		}
 	}
