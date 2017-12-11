@@ -31,14 +31,14 @@ final class FisrtModuleRouter: FisrtModuleRouterInput {
 	
 	// Open module use Segue
 	func openSecondModule(with data: String) {
-		transitionHandler.forSegue(identifier: segueIdentifier, to: SecondModuleModuleInput.self) { moduleInput in
+		try! transitionHandler.forSegue(identifier: segueIdentifier, to: SecondModuleModuleInput.self).then { moduleInput in
 			moduleInput.configure(with: data)
 		}
 	}
 	
 	// Open module use fabric
 	func instantiateThirdModule(with data: String) {
-		transitionHandler
+		try! transitionHandler
 			.forStoryboard(factory: self.transitionModuleFactory, to: ThirdModuleModuleInput.self)
 			.then { moduleInput in
 				moduleInput.configure(with: data)
