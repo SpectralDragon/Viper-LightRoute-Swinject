@@ -4,7 +4,7 @@
  use_frameworks!
 
 target 'ViperMCFSwift' do
-  pod 'LightRoute'
-  pod 'Swinject', '~> 2.0.0'
-  pod 'SwinjectStoryboard', '~> 1.0.0'
+  pod 'LightRoute', :git => 'https://github.com/SpectralDragon/LightRoute.git'
+  pod 'Swinject'
+  pod 'SwinjectStoryboard'
 end

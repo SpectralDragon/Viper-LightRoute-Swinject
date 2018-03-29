@@ -13,27 +13,28 @@ final class ApplicationAssembly {
 	
 	//Use default dependency
 	class var assembler: Assembler {
-		return try! Assembler(assemblies: [
-																				FisrtModuleAssemblyContainer(),
-																				SecondModuleAssemblyContainer(),
-																				ThirdModuleAssemblyContainer()
-																			])
+        return Assembler([
+                FisrtModuleAssemblyContainer(),
+                SecondModuleAssemblyContainer(),
+                ThirdModuleAssemblyContainer()
+            ])
 	}
 	
 	var assembler: Assembler
 	
 	//If you want use custom Assembler
 	init(with assemblies: [Assembly]) {
-		assembler = try! Assembler(assemblies: assemblies)
+		assembler = Assembler(assemblies)
 	}
 	
 }
 
 //Inject dependency in Main Storyboard
 extension SwinjectStoryboard {
-	
-	public static func setup() {
-		defaultContainer = ApplicationAssembly.assembler.resolver as! Container
-	}
-	
+
+    @objc class func setup() {
+        defaultContainer = ApplicationAssembly.assembler.resolver as! Container
+    }
+
 }
+
